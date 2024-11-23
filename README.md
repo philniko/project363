@@ -5,10 +5,10 @@ Welcome to the SOEN363 group project repository! This project is focused on impl
 ## Team Members
 We are a team of four members working on this project:
 
-- **Adam Tahle**: 40237870 (adamtahle7@gmail.com)
-- **Philippe Nikolov**: 40245641 (philippe.nikolov@outlook.com)
-- **Adam Oughourlian**: 40246313 (adamoughourlian@hotmail.com)
-- **Peter Torbey**: 40246387 (ptorbey242@gmail.com)
+- **Adam Tahle**: #40237870 (adamtahle7@gmail.com)
+- **Philippe Nikolov**: #40245641 (philippe.nikolov@outlook.com)
+- **Adam Oughourlian**: #40246313 (adamoughourlian@hotmail.com)
+- **Peter Torbey**: #40246387 (ptorbey242@gmail.com)
 
 ---
 ## Project Overview
