@@ -8,9 +8,9 @@ from tqdm import tqdm
 
 # PostgreSQL connection details
 DB_CONFIG = {
-    "dbname": "postgres",
+    "dbname": "postgres2",
     "user": "postgres",
-    "password": "docker",
+    "password": "adam123",
     "host": "localhost",
     "port": 5432,
 }
@@ -245,7 +245,7 @@ def insert_books_to_db(books):
 
 if __name__ == "__main__":
     search_query = input("Enter a search query (e.g., fiction, history): ").strip()
-    total_books_to_fetch = 100  # Adjust as needed
+    total_books_to_fetch = 40  # Adjust as needed
     all_books = []
     start_index = 0
     books_per_request = 40
