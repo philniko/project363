@@ -33,7 +33,7 @@ git clone <repository_url>
 DB_CONFIG = {
     "dbname": "postgres",
     "user": "postgres",
-    "password": "**your_pgadmin_password**",
+    "password": "your_pgadmin_password",
     "host": "localhost",
     "port": 5432
 }
@@ -62,7 +62,7 @@ python script.py
 ## Repository Structure
 - `script.py`: Python script for populating the database using external data sources.
 - `dbcreation.sql`: SQL file containing the commands to create the database schema.
-- `Query Implementation.sql`: SQL file with various queries for testing and implementation.
+- `QueryImplementation.sql`: SQL file with various queries for testing and implementation.
 - `erd.png`: Image of the ERD of the database.
 
 ---
