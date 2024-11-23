@@ -11,7 +11,21 @@ We are a team of four members working on this project:
 - **Peter Torbey**: 40246387 (ptorbey242@gmail.com)
 
 ---
+## Project Overview
+This project implements a database system for managing and querying information about books, authors, genres, and publications. It includes:
 
+- **Database Schema**: A well-structured schema with tables such as `publications`, `books`, `authors`, `genres`, `bookauthors`, and `bookgenres`, along with views like `full_access_books` and `low_access_books`. The schema design is illustrated in the included **ERD.png** file, which clearly represents the relationships between the tables.
+- **Python Integration**: A Python script (`script.py`) that populates the database by fetching data from external APIs (Google Books API and Open Library API). It ensures data consistency and handles relationships between authors, genres, and publications.
+- **SQL Query Implementations**: Various SQL queries for testing and exploring database functionalities, including queries for joins, aggregations, `NULL` handling, set operations, and more.
+- **Key Features**:
+  - Insertion of books and their metadata into the database.
+  - Management of relationships between books, authors, and genres.
+  - Queries to demonstrate advanced SQL concepts such as division, correlated subqueries, and set operations.
+  - Demonstrations of overlap and covering constraints within the schema.
+
+The system is designed to showcase database design principles and SQL capabilities while ensuring seamless integration with external data sources.
+
+---
 ## Implementation Guide
 Follow the steps below to set up and run the project on your local system:
 
@@ -63,7 +77,7 @@ python script.py
 - `script.py`: Python script for populating the database using external data sources.
 - `dbcreation.sql`: SQL file containing the commands to create the database schema.
 - `QueryImplementation.sql`: SQL file with various queries for testing and implementation.
-- `erd.png`: Image of the ERD of the database.
+- `ERD.png`: An Entity-Relationship Diagram illustrating the database schema and the relationships between tables.
 
 ---
 
